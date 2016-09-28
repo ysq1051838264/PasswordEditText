@@ -3,6 +3,25 @@
 
 ![alt tag](https://raw.githubusercontent.com/ysq1051838264/PasswordEditText/master/1.gif)
 
+### Usage
+
+#### In XML  Directly
+
+     <com.example.ysq.passwordedittext.PasswordEditText
+        android:id="@+id/codeEt"
+        app:start="@drawable/user_register_password"
+        app:pad="20dp"
+        android:background="@null"
+        android:paddingStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:textColorHint="#B3B3B3"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:paddingEnd="10dp"
+        android:layout_height="50dp" />
+    
 #The MIT License (MIT)
 Copyright (c) 2016
 
